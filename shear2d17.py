@@ -162,5 +162,5 @@ print ("solution done with no error")
 #    According to me history function is working properly because i have checked with two other history functions and they both are giving same results.	
 #
 # 3. Variational problem:
-#    Definition of E_c according to paper Borden is not working properly (crack is propagated all over ).::Line 112
+#    Definition of E_c according to paper Borden is not working properly (crack is propagated all over ).::Line 108
 #    However alternate definition (searched on internet) is working fine and giving crack at middle point but is not propagating.
