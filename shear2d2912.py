@@ -156,13 +156,15 @@ plt.show()
 print ("solution done with no error")
 
 ######COMMENTS:
-# 1. No solution for u and c is obtained if crack is taken as reference axis:: Line 48
+# 1. Mesh is refined: Line 11
+# 2. l_0 is taken .011 instead of 7.5e-3.
+# 3. No solution for u and c is obtained if crack is taken as reference axis:: Line 48
 #  ** Warning: Found no facets matching domain for boundary condition. (with both u as 0)
 #  Also for middle subdomain, I have taken: x[0]-0.5 :0.5 subtraction to let it know where crack starts.
 #
-# 2. History definition: Line 76
-#    According to me history function is working properly because i have checked with two other history functions and they both are giving same results.	
+# 4. History definition: Line 80
+#    Instead of definition from Borden paper, alternate Definition is taken.	
 #
-# 3. Variational problem:
-#    Definition of E_c according to paper Borden is not working properly (crack is propagated all over ).::Line 112
-#    However alternate definition (searched on internet) is working fine and giving crack at middle point but is not propagating.
+# 5. Variational problem:
+#    Definition of E_c according to paper Borden is not working properly (crack is propagated all over ).::Line 108
+#    However alternate definition (searched on internet) is working fine and giving crack at middle point.
