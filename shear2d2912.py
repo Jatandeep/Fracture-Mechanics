@@ -167,4 +167,4 @@ print ("solution done with no error")
 #
 # 5. Variational problem:
 #    Definition of E_c according to paper Borden is not working properly (crack is propagated all over ).::Line 108
-#    However alternate definition (searched on internet) is working fine and giving crack at middle point.
+#    However alternate definition (from another Paper) is working fine and giving crack at middle point.
