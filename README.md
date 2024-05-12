@@ -1,1 +1,1 @@
-# fracturemechanics
+This project was a part of the master's seminar at Friedrich Alexander University, Erlangen-Nuremberg, Germany. It is used to simulate a crack propagation in a brittle material when a quasi static shear loading is enforced on a single edged 2D plate. It is based on the research paper of [Hirshikesh](/docs/Hirshikesh.pdf). The results in the different loading scenarios are presented in the [slides](/docs/FM_Seminar.pdf).
